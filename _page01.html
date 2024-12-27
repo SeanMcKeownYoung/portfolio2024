@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sean's 2023 Portfolio | Staten Island Ferry Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="navbarHeader" class="collapse bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <!-- Start: h4 about --><h4 class="text-white">About the portfolio</h4>
+                        <!-- End: h4 about -->
+                        <!-- Start: paragraph --><p class="text-dim">2023 was a year of growth for me. I completed the Ohio State Bootcamp course in UX-UI in May. From sprint onward, you can see the impact of that education on my work as it became increasingly digital. I've included a few traditional page designs and illustrations to my portfolio, but overall the work is heavily digital in nature.</p>
+                        <!-- End: paragraph -->
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <!-- Start: h4 contact --><h4 class="text-white">Contact</h4>
+                        
+                        <!-- End: h4 contact -->
+                        <!-- Start: lists unordered --><ul class="list-unstyled">
+    <li><a href="https://www.linkedin.com/in/sean-mckeown-young" class="text-white">View my Linkedin Profile</a></li>
+    <li><a href="https://www.coroflot.com/sjmckeownyoung" class="text-white">View my Portfolio on Coroflot</a></li>
+    <li><a href="mailto:smckeown-young@advancelocal.com?" class="text-white">Send Email</a>
+        </a></li>          
+</ul>
+                        <!-- End: lists unordered -->
+
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between"><a class="navbar-brand d-flex align-items-center" href="#"><h4> <strong>Portfolio 2023 | </strong>A collection of work from the year.</h4></a><button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+                    aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-navicon"></i></button></div>
+        </div>
+    </header>
+
+
+    <!-- ### CONTENT ### -->
+      <div class="container">
+        <div class="row">
+
+    <h2>Staten Island Ferry Project.</h2>
+
+    <figure>
+        <img src="assets/SIferryAnimHeroanimated5.gif" alt="Alt text for image">
+    </figure>
+</div></div>
+    <div class="container">
+        <div class="row">
+   <h3>The process.</h3> 
+</div></div>
+<div class="container">
+    <div class="row">
+    <p>I created an interactive graphic with an embedded repeating animated gif. I also translated the interactive to become a print graphic.</p>
+
+    <p>I started in the early spring, meeting with my Director, Jeff Glick and the editors at the Staten Island Advance to formulate some fresh ideas for presenting a story about Staten Island Ferry Funding and how it's failing. I was also still in a Bootcamp course learning about html/css and javascript coding. I was applying my new skills as I worked on this project.</p>
+    
+    <p>Once rough designs were sketched, I used Photoshop to create the animated illustration and Illustrator to create the components used within the interactive and print graphics. After that, I used Visual Studio Code to complete the html, css and js coding and Github to house the project files and share renderings with the team. Once that was complete I quickly learned what I could about ArcPublishing to make the files work on our websites. </p>
+</div></div>
+
+    
+    <div class="container">
+        <div class="row">
+            <h3>Digital components.</h3> 
+        </div></div>
+        <div class="container">
+            <div class="row">
+            <p>I worked very hard to present the information in an engaging and compelling way.</p>
+        </div></div>
+        <div class="container">
+            <div class="row">
+    <a href="https://htmlpreview.github.io/?https://github.com/SeanMcKeownYoung/siFerryARC/blob/main/index.html" target="_blank" class="myButton"> <span>View the interactive graphic</span> </a>
+    </div></div>
+    <div class="container">
+        <div class="row">
+    <br>
+    </div></div>
+</div></div></div>
+
+<div class="container">
+    <div class="row">
+        <h3>Print components.</h3> 
+    </div></div>
+    <div class="container">
+        <div class="row">
+        <p>I worked with the Print Editors to present the graphics and illustrations from the digital display to their best. Click the images below to see them larger.</p>
+    </div></div>
+<div class="container">
+
+    <div class="row">
+        <img class="myImages" id="myImg" src="assets/EP_EP_LB_052823_B_001.jpg" alt="Cover Illustration and layout" width="30%" height="auto">
+
+        <img class="myImages" id="myImg" src="assets/01SIAPRINT GRAPHIC.jpg" 
+        alt="Inside Print Graphic"
+        width="30%" height="auto">
+
+
+        <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div></div></div>
+
+
+<div class="container spacerBottom">
+    <div class="row">
+<h5><strong>Programs used: </strong>Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Visual Studio Code, Adobe Media Encoder, Github, ArcPublishing</h5> 
+</div></div>
+
+
+
+    <script>
+
+
+        // create references to the modal...
+var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
+var modalImg = document.getElementById("img01");
+// and the caption in the modal
+var captionText = document.getElementById("caption");
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    console.log(evt);
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+        </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+        
+</body>
+    <!-- ### FOOTER ### -->
+
+    <footer>
+        <div class="container">
+    
+            <div class="row">
+                <span>
+                <h6>Sean McKeown-Young <h7>| &nbsp;Art Director &nbsp;|&nbsp; Advance Local Media &nbsp;|&nbsp; 419.708.5563</h7></h6>
+                </span>
+        </div>
+    
+        <p class="small"><a href="#top"><p1>↑ Back to top</p1></a></p>
+    </div>
+
+    </footer>
+</html>
