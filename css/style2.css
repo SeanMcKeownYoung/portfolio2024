@@ -319,16 +319,46 @@ h5 {
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
-    transition: 0.3s;
+    opacity: 0%;
   }
   
   .close:hover,
   .close:focus {
-    color: #bbb;
+    color: #ffffff;
     text-decoration: none;
     cursor: pointer;
   }
-  
+
+  .close2 {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transform: translate(0px, -15px);
+  }
+  .close2:hover,
+  .close2:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close2:before {
+    content: "close"; 
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 8px;
+    opacity: 0%;
+  }
+  .close2:hover:before {
+    content: "close"; 
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 8px;
+    opacity: 100%;
+    transition: 0.3s;
+  }
   @media only screen and (max-width: 700px) {
     .modal-content {
       width: 100%;
