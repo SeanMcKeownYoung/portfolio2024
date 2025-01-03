@@ -8,7 +8,9 @@ body {
     background-color: #eaeaea;
 }
 .card {
-    color: #ffffff;
+    color: #e3e3e3;
+    border: transparent;
+    padding-bottom: 20px;
 }
 .spacer {
     margin-bottom: 30px;
@@ -48,6 +50,7 @@ a {
 .MenuBar {
     background-color: #111416;
 }
+
 
 .btn {
 border-radius: 0%;
@@ -299,22 +302,22 @@ h5 {
   }
   footer {
     padding-top: 100px;
-	background-color:#0688fa;
-    color: white;
+	background-color:#111416;
+    color: #29bbff;
     padding-bottom: 50px;
   }
   h6 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    color: white;
+    font-weight: 900;
+    font-size: 21px;
+    color: #29bbff;
 
   }
   h7 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: white;
+    color: #29bbff;
     text-transform: uppercase;
 
   }
@@ -352,3 +355,53 @@ label {
 .pageBack {
     background-color: #212529;
 }
+
+.coverShot {
+    object-fit: cover;
+    aspect-ratio: 1.8 / 1;
+    object-position: left bottom;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .coverShot {
+        object-fit: cover;
+        aspect-ratio: auto;
+        height: 500px;
+        object-position: 0 0;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    .coverShot {
+        object-fit: cover;
+        aspect-ratio: 3 / 1;
+        object-position: 50% 70%;
+    }
+  }
+  .imgPopup .str-ModalBack {
+	position: fixed;
+	display: block;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 1000;
+	cursor: pointer;
+}
+
+.imgPopupItem {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-height: 100%;
+	max-width: 100%;
+	transform: translate(-50%, -50%);
+} 
+
+img[data-pop-img] {
+	cursor: pointer;
+}
+
