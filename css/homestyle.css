@@ -176,6 +176,26 @@ strong {
     right: 0;
   }
 
+
+  .myButton22 {
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    background-color:#2dabf9;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+    font-size:18px;
+    padding:9px 40px 9px 19px;
+    width: 100%;
+    text-decoration:none;
+      margin-top: 20px;
+  }
+
+
+
+
   dim {
     opacity: 30%;
   }
